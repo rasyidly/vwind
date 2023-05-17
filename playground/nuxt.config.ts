@@ -3,5 +3,8 @@ export default defineNuxtConfig({
     '../src/module',
     '@nuxtjs/tailwindcss'
   ],
-  myModule: {}
+  tailwindcss: {
+    cssPath: '../src/runtime/presets/vwind.css'
+  },
+  vwind: {}
 })
